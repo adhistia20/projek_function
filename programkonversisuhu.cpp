@@ -10,4 +10,19 @@ float fahrenheitToCelcius(float fahrenheit){
 }
 
 int main (){
-    
+    float suhu;
+    char pilihan;
+
+    cout << "Pilih konversi suhu:\n";
+    cout << "1. Celcius ke Fahrenheit (C)\n";
+    cin >> pilihan;
+
+    if (pilihan == 'C' || pilihan == 'c') {
+        cout << "Masukkan suhu dalam Celcius: ";
+        cin >> suhu;
+        cout << suhu << "°C = " << celciusToFahrenheit(suhu) << "°F\n";
+    }
+
+
+    return 0;
+}
