@@ -23,7 +23,7 @@ int main (){
         cout << "Masukkan suhu dalam Celcius: ";
         cin >> suhu;
         cout << suhu << "°C = " << celciusToFahrenheit(suhu) << "°F\n";
-    }esle if (pilihan == 'F' || pilihan == 'f') {
+    }else if (pilihan == 'F' || pilihan == 'f') {
         cout << "Masukkan suhu dalam Fahrenheit: ";
         cin >> suhu;
         cout << suhu << "°C = " << fahrenheitToCelcius(suhu) << "°C\n";
